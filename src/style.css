@@ -39,3 +39,22 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 }
+.btn {
+    padding:18px;
+    font-size: 1, 1rem;
+    border:none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #ffff;
+    color: #222;
+    transition: background-color 0.15s ease;
+}
+.btn:hover{
+    background-color: #e6e8ec;
+}
+.operator {
+    background-color: #c7ccdd;
+}
+.equal{
+    background-color: #3b3f46;
+}
